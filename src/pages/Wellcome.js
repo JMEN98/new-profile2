@@ -6,7 +6,7 @@ import test from "../test.json"
 function Welcome(props) {
   console.log(props.test)
   return (
-    <body style={{backgroundImage : "url(/instock.jpg)"}} >
+   <body>
     <div className="welcome"  >
      <h1>Behold my portfolio </h1> 
      <h2>Welcome my name is </h2>

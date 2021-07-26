@@ -1,17 +1,16 @@
-html{
- background-image: url(./images/instock.png);
- background-position: cover;
- background-size: 100%;
- margin: 0px;
+body{
+background-color: purple;
 }
 
+
+ 
 h1{
 
 
 background-color: aqua;
 text-align: center;
 
-}
+} 
 div{
 text-align: center;
 
@@ -36,6 +35,9 @@ text-align: center;
   flex-grow: 1px;
   flex-shrink: 1px;
   border-block-start-color: white ;
+  margin-top: -50px;
+  padding: 0;
+  
   
   
 
@@ -67,6 +69,23 @@ article {
 }  
 .hire{
 animation: move 1s linear infinite;
+
+}
+
+.nav{
+text-align: center;
+height: 50px;
+border: 1px solid rgb(0, 38, 255);
+background-color: rgb(255, 0, 0);
+
+}
+
+#link{
+
+
+}
+#links1{
+margin-top: -50px;
 
 }
 
