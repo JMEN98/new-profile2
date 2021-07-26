@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html{
+ background-image: url(./images/instock.png);
+ background-position: cover;
+ background-size: 100%;
+ margin: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1{
+
+
+background-color: aqua;
+text-align: center;
+
 }
+div{
+text-align: center;
+
+
+
+}
+.home{
+  font-size: large;
+ text-decoration: none;
+ background-color: silver;
+ border-radius: 6px;
+ box-shadow: 2px,2px,5px white;
+ 
+
+}
+
+.main-home{
+  display: flex;
+  justify-content: space-around;
+  font-weight: bolder;
+  font-style:italic;
+  flex-grow: 1px;
+  flex-shrink: 1px;
+  border-block-start-color: white ;
+  
+  
+
+}
+h5{
+ text-size-adjust: auto;
+
+
+}
+article {
+  padding: 20px;
+  background: #ffffff;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.class{
+   
+  text-align: center;
+}
+
+@keyframes move{
+  0%   {transform: translateY(100px);}
+  25%  {transform: translateX(100px);}
+  50%  {transform: translateY(10px);}
+  100% {transform: translateX(10px);}
+
+
+}  
+.hire{
+animation: move 1s linear infinite;
+
+}
+
