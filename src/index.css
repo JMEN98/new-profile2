@@ -78,6 +78,7 @@ height: 50px;
 border: 1px solid rgb(0, 38, 255);
 background-color: rgb(255, 0, 0);
 
+
 }
 
 #link{
@@ -86,6 +87,10 @@ background-color: rgb(255, 0, 0);
 }
 #links1{
 margin-top: -50px;
+
+}
+.contact{
+margin-bottom: 110px;
 
 }
 

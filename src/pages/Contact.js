@@ -1,12 +1,14 @@
+import React  from "react";
+import contact from "../contact.json";
 
-import React from"react";
-
-function Contact(props){
-return(
-<div>hey</div>
-
-);
- 
-
-
-}
+function Contact (props){
+  return (
+  <div  className="contact">
+    <h1> jeffbenjamin@gmail.com</h1> 
+  </div>
+  
+  )
+  
+  
+  }
+  export default Contact;
