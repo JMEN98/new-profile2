@@ -10,7 +10,9 @@ import test from "./test.json";
 function App(props) {
   return (
     <div>
-      <h1 className="nav"> </h1>
+      {/* <Col xs={0} md={2} xl={3}/>
+                <Col xs={12} md={8} xl={6}></Col> */}
+      <h1 className="nav">  </h1>
       <div className=" main-home">
         <Link class="btn btn-light" to="/">
           {" "}

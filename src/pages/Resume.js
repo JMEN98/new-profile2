@@ -8,7 +8,7 @@ function Resume(props) {
  return(
   
 
-  
+  <div> <h1>behold my Resume </h1>
   <div className="class"  >
    <article class="shadow">
   <h1>{skills.header}</h1> 
@@ -26,7 +26,7 @@ function Resume(props) {
     
   </div>
 
-
+</div>
 
 
 
