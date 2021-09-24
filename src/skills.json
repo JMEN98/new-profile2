@@ -1,20 +1,18 @@
 {
-  "header": "This is my Resume",
-  "education": "Education",
-  "h5": "I attended Irvingon High school and graduated in 2017. During that time I\r\n      took extensive computer courses. I am enrolled in Kenzie Academy .\r\n      Currently, I average a 92% in a coding course called Pro Hydrogen.",
 
-  "job": "Job History",
+  "name":"Jeff K Benjamin",
+"h2":"Education",
+"p":"I attended Irvingon High school and graduated in 2017. During that time I took extensive computer courses.  I am enrolled in Kenzie Academy at Essex County College. Currently, I average a 92% in a coding course called Pro Hydrogen.",
+"job":"Job history",
+"Job history1":"Amazon Lga9 - 2018-2021 ",
+"Job history2":"welch's Fruit Snacks Factory - 2017-2018",
+"s":"Skills",
+"S1":"HTML, CSS, react,js ,js,some python,",
+"s2":"mongodb, Postmen ," 
 
-  "li1": "Amazon Lga9 - 2018-2021",
-  "li": "welch's Fruit Snacks Factory - 2017-2018",
 
-  "h1": "skills",
-  "soft": "soft skills",
-  "skillList":"HTML,css,Javascript,react.js,node.js,mongoDB,github "
+
+
+
+
 }
-
-
-
-
-
-
