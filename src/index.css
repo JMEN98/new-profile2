@@ -97,4 +97,26 @@ margin-bottom: 110px;
 
 
 }
+.list{
+  text-decoration: none;
+  list-style-type: square;
+  
 
+}
+a{
+  text-decoration: none;
+  list-style-type: square;
+  color: red;
+}
+
+.link{
+ text-decoration: none;
+ color:red;
+ padding: 14px 25px;
+ text-align: center;
+display: grid;
+ background-color:blue;
+ margin-bottom: 10px;
+ width: 100px;
+
+}
