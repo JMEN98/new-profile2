@@ -9,7 +9,7 @@ return (
 <ul className="list">
  <li><a className="link" href="https://github.com/KenzieAcademy-Students/kenziecart-app-JMEN98"> is a app</a></li>
 <li><a className="link" href="https://github.com/JMEN98/portfolio"> my old portfolio</a> </li>
-
+<li><a className="link" href="https://github.com/KenzieAcademy-Students/mern-course-capstone-NathanHolt">  mern stack</a> </li>
 </ul>
 
    

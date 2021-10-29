@@ -1,51 +1,35 @@
-body{
-background-color: purple;
+body {
+  background-color: purple;
 }
 
-
- 
-h1{
-
-
-background-color: aqua;
-text-align: center;
-
-} 
-div{
-text-align: center;
-
-
-
+h1 {
+  background-color: aqua;
+  text-align: center;
 }
-.home{
+div {
+  text-align: center;
+}
+.home {
   font-size: large;
- text-decoration: none;
- background-color: silver;
- border-radius: 6px;
- box-shadow: 2px,2px,5px white;
- 
-
+  text-decoration: none;
+  background-color: silver;
+  border-radius: 6px;
+  box-shadow: 2px, 2px, 5px white;
 }
 
-.main-home{
+.main-home {
   display: flex;
   justify-content: space-around;
   font-weight: bolder;
-  font-style:italic;
+  font-style: italic;
   flex-grow: 1px;
   flex-shrink: 1px;
-  border-block-start-color: white ;
+  border-block-start-color: white;
   margin-top: -50px;
   padding: 0;
-  
-  
-  
-
 }
-h5{
- text-size-adjust: auto;
-
-
+h5 {
+  text-size-adjust: auto;
 }
 article {
   padding: 20px;
@@ -54,69 +38,62 @@ article {
   margin: 50px auto;
 }
 
-.class{
-   
+.class {
   text-align: center;
 }
 
-@keyframes move{
-  0%   {transform: translateY(100px);}
-  25%  {transform: translateX(100px);}
-  50%  {transform: translateY(10px);}
-  100% {transform: translateX(10px);}
-
-
-}  
-.hire{
-animation: move 1s linear infinite;
-
+@keyframes move {
+  0% {
+    transform: translateY(100px);
+  }
+  25% {
+    transform: translateX(100px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}
+.hire {
+  animation: move 1s linear infinite;
 }
 
-.nav{
-text-align: center;
-height: 50px;
-border: 1px solid rgb(0, 38, 255);
-background-color: rgb(255, 0, 0);
-
-
+.nav {
+  text-align: center;
+  height: 50px;
+  border: 1px solid red;
+  background-color: rgb(255, 0, 0);
 }
 
-#link{
-
-
+#link {
 }
-#links1{
-margin-top: -50px;
-
+#links1 {
+  margin-top: -50px;
 }
-.contact{
-margin-bottom: 110px;
-
+.contact {
+  margin-bottom: 110px;
 }
-.class{background-color:ghostwhite;
-
-
+.class {
+  background-color: ghostwhite;
 }
-.list{
+.list {
   text-decoration: none;
   list-style-type: square;
-  
-
 }
-a{
+a {
   text-decoration: none;
   list-style-type: square;
   color: red;
 }
 
-.link{
- text-decoration: none;
- color:red;
- padding: 14px 25px;
- text-align: center;
-display: grid;
- background-color:blue;
- margin-bottom: 10px;
- width: 100px;
-
+.link {
+  text-decoration: none;
+  padding: 14px 25px;
+  text-align: center;
+  display: grid;
+  background-color: gold;
+  margin-bottom: 10px;
+  width: 100px;
 }
