@@ -5,13 +5,14 @@ import Welcome from "./pages/Wellcome";
 import Resume from "./pages/Resume";
 import Work from "./pages/Work";
 import Contact from "./pages/Contact";
+import Header from "./conponents/Header/Header";
 import test from "./test.json";
 
 function App(props) {
   return (
     <div>
-      {/* <Col xs={0} md={2} xl={3}/>
-                <Col xs={12} md={8} xl={6}></Col> */}
+       <Header/> 
+     
       <h1 className="nav">  </h1>
       <div className=" main-home">
         <Link class="btn btn-light" to="/">
@@ -34,6 +35,7 @@ function App(props) {
           path="/"
           render={(props) => <Welcome {...props} test={test} />}
         />
+        
         <Route
           exact
           path="/Resume"
@@ -50,6 +52,7 @@ function App(props) {
           render={(props) => <Contact {...props} />}
         ></Route>
       </Switch>
+     
     </div>
   );
 }
