@@ -1,10 +1,12 @@
 import React from "react";
+import Watch from"../images/watch.jpg"
 
 
 function Work(props) {
   return (
     <div>
       <h1> Behold my portfolio </h1>
+      <article> 
       <ul className="list">
         <li>
           <a
@@ -41,13 +43,18 @@ function Work(props) {
           {" "}
           <a
             className="link"
-            href="https://github.com/KenzieAcademy-Students/challenge-dates-and-times-JMEN98"
+            href="https://github.com/KenzieAcademy-Students/challenge-dates-and-times-JMEN98" 
+           
           >
+           
             {" "}
             stop watch
+           
           </a>
         </li>
       </ul>
+      </article>
+      <img src={Watch}></img>
     </div>
   );
 }
